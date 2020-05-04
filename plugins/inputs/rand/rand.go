@@ -1,4 +1,4 @@
-// https://github.com/danielnelson/telegraf-plugins
+// Package rand is loosely based off of https://github.com/danielnelson/telegraf-plugins
 package rand
 
 import (
