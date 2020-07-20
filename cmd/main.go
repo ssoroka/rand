@@ -9,7 +9,7 @@ import (
 	// TODO: import your plugins
 	_ "github.com/ssoroka/rand/plugins/inputs/rand"
 
-	"github.com/influxdata/telegraf/plugins/inputs/execd/shim"
+	"github.com/influxdata/telegraf/plugins/common/shim"
 )
 
 var pollInterval = flag.Duration("poll_interval", 1*time.Second, "how often to send metrics")

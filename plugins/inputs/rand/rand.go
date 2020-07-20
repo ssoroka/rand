@@ -18,6 +18,8 @@ type RandomNumberGenerator struct {
 	SampleFrequency config.Duration `toml:"sample_frequency"`
 	ctx             context.Context
 	cancel          context.CancelFunc
+
+	Log telegraf.Logger `toml:"-"`
 }
 
 func init() {
