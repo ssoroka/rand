@@ -22,4 +22,8 @@ You should be able to call this from telegraf now using execd:
 [[inputs.execd]]
   command = ["/path/to/rand_binary"]
   signal = "none"
+  
+# sample output: write metrics to stdout
+[[outputs.file]]
+  files = ["stdout"]
 ```
