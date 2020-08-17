@@ -11,6 +11,10 @@ Download the repo somewhere
 build the "rand" binary
 
     $ go build -o rand cmd/main.go
+    
+ (if you're using windows, you'll want to give it an .exe extension)
+ 
+    go build -o rand.exe cmd/main.go
 
 You should be able to call this from telegraf now using execd:
 
